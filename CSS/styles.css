@@ -1,0 +1,58 @@
+body {
+  margin: 0 auto;
+}
+
+hr {
+  border: solid #0000CD 5px;
+  margin: 50px 30px 50px 30px;
+}
+
+h1 {
+  margin-left: 50px;
+}
+
+h2 {
+  margin-left: 50px;
+}
+
+p {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#footer {
+  background-image: linear-gradient(rgb(199, 127, 127), rgb(250, 224, 224));
+  position: absolute;
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+/* tohle by mělo fungovat, nevím, kde je chyba, možná chyba v adrese, kterou nevidím*/
+ul.checklist {
+  list-style-image: url("/images/icon.png");
+}
+
+.checklist {
+  margin-left: 50px;
+}
+
+.diffont {
+  font-size: 150%;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    display: none;
+    visibility: hidden;
+  }
+
+  .header {
+    display: none;
+    visibility: hidden;
+  }
